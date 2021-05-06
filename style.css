@@ -1,0 +1,26 @@
+input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 20px 0;
+    border: 3px solid tomato;
+    border-radius: 7px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 1rem;
+}
+#search{
+    background-image: url("./images/search.png");
+    background-repeat: no-repeat;
+    background-position: 8px 14px;
+    font-size: 1rem;
+    padding: 15px 40px;
+    background-color: white;
+    width: 150px;
+    transition: width 0.5s ease-in-out;
+}
+#search:focus{
+    background-color: teal;
+    color: white;
+    width: 100%;
+}
